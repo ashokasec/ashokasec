@@ -2,11 +2,13 @@
 
 I'm a self-learned ethical hacker with a strong interest in web development, secure coding, web app pentesting, network pentesting, and MERN stack development.
 
+![Hackerman](https://media.giphy.com/media/JSXlcb2U0czPcBHL2k/giphy.gif)
+
 ![Twitter Follow](https://img.shields.io/twitter/follow/ashokasec?logo=twitter&style=for-the-badge)
 
-- 🔭 I’m currently working on [The Cyber Avenger](https://thecyberavenger.com)
+- 🔭 I’m currently working on [The Cyber Avenger](https://thecyberavenger.com) (Personal Project)
 - 🌱 I’m currently learning **Web 3 & SSR Web Dev**
-- 👯 I’m looking to collaborate on [OSINT Ambition](https://github.com/osintambition)
+- 👯 I’m looking to collaborate
 - 💬 Ask me about **ReactJS, Linux, NextJS, JavaScript**
 - 📫 How to reach me: ashokasec@proton.me
 
