@@ -4,7 +4,7 @@ I'm a self-learned ethical hacker with a strong interest in web development, sec
 
 ![Hackerman](https://media.giphy.com/media/JSXlcb2U0czPcBHL2k/giphy.gif)
 
-![Twitter Follow](https://img.shields.io/twitter/follow/ashokasec?logo=twitter&style=for-the-badge)
+![](https://komarev.com/ghpvc/?username=ashokasec&color=blue)
 
 - 🔭 I’m currently working on [The Cyber Avenger](https://thecyberavenger.com) (Personal Project)
 - 🌱 I’m currently learning **Web 3 & SSR Web Dev**
