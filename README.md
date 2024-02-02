@@ -1,6 +1,6 @@
-# Namaste, I'm Ashoka
+# I'm Ashoka
 
-I'm a self-learned ethical hacker with a strong interest in web development, secure coding, web app pentesting, network pentesting, and MERN stack development.
+I'm a self-learned Full-Stack Developer with a strong interest in web development, secure coding, web app pentesting, network pentesting, and cybersecurity.
 
 ![Hackerman](https://media.giphy.com/media/JSXlcb2U0czPcBHL2k/giphy.gif)
 
