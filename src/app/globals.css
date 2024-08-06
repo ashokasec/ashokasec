@@ -120,3 +120,10 @@ button.ghost {
       filter: hue-rotate(360deg); /* Rotates through the entire color spectrum */
   }
 }
+
+
+@layer components {
+  article.web1 a{
+    @apply text-blue-600 underline underline-offset-2
+  }
+}
