@@ -38,7 +38,7 @@ const page = () => {
       <div className="my-6">
         <p>
           I develop apps to fill gaps in existing solutions based on personal
-          needs. If they don't exist in the market, I create them from scratch.
+          needs. If they don&#39;t exist in the market, I create them from scratch.
         </p>
         <p>
           Additionaly, I write code for{" "}
@@ -138,7 +138,7 @@ const page = () => {
       </div>
 
       <p className="font-semibold">Thank You 💖</p>
-      <p>I'm open to new opportunities and would love to connect with you.</p>
+      <p>I&#39;m open to new opportunities and would love to connect with you.</p>
     </article>
   );
 };
