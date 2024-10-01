@@ -22,8 +22,8 @@ In my free time, I enjoy meeting new people and expanding my network. I am confi
 | **Type 🦥**           | Tools and Technologies |
 |----------------|------------------------|
 | **Languages**  | Javascript - Typescript - Python3 - Bash |
-| **Frontend**   | React.Js - Next.Js - Tailwind CSS - ShadcnUI - Framer Motion |
-| **Backend**    | Node.Js - Express.Js - Elysia.Js - MongoDB - Mongoose - Socket Programming |
+| **Frontend**   | React.Js - Next.Js - Zustand - Tailwind CSS - ShadcnUI - Framer Motion |
+| **Backend**    | Node.Js - Express.Js - Hono - MongoDB - Mongoose - Socket Programming |
 | **DevOps**     | Git - Docker - Linux - Postman - Bash |
 
 ## Shivam Gupta's Github Stats
