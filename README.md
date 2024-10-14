@@ -14,7 +14,7 @@ In my free time, I enjoy meeting new people and expanding my network. I am confi
 <img src="https://komarev.com/ghpvc/?username=ashokasec&label=Profile%20views&color=0085ff&style=for-the-badge" alt="Shivam Gupta" />
 
 ## Current Status
-- Currently working on my friends project [**@osintambition**](https://github.com/osintambition)
+- Building Web Apps.
 - I'm learning **Elysia.JS**, **Payment Integration** and **SAAS**
 - Ask me about **React.Js**, **Next.Js** and **SAAS**
 
