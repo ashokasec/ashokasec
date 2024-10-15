@@ -15,7 +15,7 @@ In my free time, I enjoy meeting new people and expanding my network. I am confi
 
 ## Current Status
 - Building Web Apps.
-- I'm learning **Elysia.JS**, **Payment Integration** and **SAAS**
+- I'm learning **Elysia.JS**, **Payment Integration** and **SAAS Apps**
 - Ask me about **React.Js**, **Next.Js** and **SAAS**
 
 ## Tools and Stacks
