@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { inter } from "@/lib/fonts";
+import { ADMIN, HEADLINE } from "@/lib/config";
 
 export const metadata: Metadata = {
-  title: "Shivam Gupta | @ashokasec",
-  description:
-    "I develop apps to fill gaps in existing solutions based on personal needs.",
-  authors: [{ name: "Shivam Gupta", url: "https://ashokasec.com" }],
+  title: `${ADMIN.name} | @${ADMIN.username}`,
+  description: HEADLINE,
+  authors: [{ name: ADMIN.name, url: "https://ashokasec.com" }],
   alternates: {
     canonical: "https://www.ashokasec.com",
   },
@@ -15,10 +15,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://ashokasec.com",
-    title: "Shivam Gupta | @ashokasec",
-    description:
-      "I develop apps to fill gaps in existing solutions based on personal needs.",
-    siteName: "ashokasec",
+    title: `${ADMIN.name} | @${ADMIN.username}`,
+    description: HEADLINE,
+    siteName: ADMIN.username,
     images: [
       {
         url: "https://raw.githubusercontent.com/ashokasec/my-website/main/public/screenshot.png",
@@ -34,11 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body
-        className={`${inter.className} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
