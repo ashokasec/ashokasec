@@ -6,21 +6,21 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-    <div className="h-0">
-      <div className="w-full h-10 relative">
-        <Image
-          src="/images/banner.jpeg"
-          className="absolute left-0 top-0 translate-y-10 -z-10 h-full w-full object-cover blur-3xl saturate-200 brightness-125 scale-105"
-          alt=""
-          layout="fill"
+      <div className="h-0">
+        <div className="w-full h-10 relative">
+          <Image
+            src="/images/banner.jpeg"
+            className="absolute left-0 top-0 translate-y-6 -z-10 h-full w-full object-cover blur-3xl saturate-200 brightness-125 scale-105"
+            alt=""
+            layout="fill"
           />
+        </div>
       </div>
-          </div>
-      <section className="bg-gradient-to-b from-blue-600/40 to-[#0f0f11] rounded-md overflow-clip p-px">
+      <section className="bg-gradient-to-b from-blue-600/40 to-[#0f0f11] rounded-md overflow-clip p-px !mt-0">
         <div
-          className=" bg-white/[0.025] backdrop-blur-md pt-20 !bg-cover !bg-no-repeat !bg-center rounded-md"
+          className=" bg-white/[0.025] backdrop-blur-md pt-20 !bg-cover !bg-no-repeat !bg-[right] sm:bg-center rounded-md"
           style={{
-            background: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(15, 15, 17, 0.85), rgb(15, 15, 17)), url("/images/banner.jpeg")`,
+            background: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(15, 15, 17, 0.85), rgb(9, 14, 17)), url("/images/banner.jpeg")`,
           }}
         >
           <div className="flex flex-col sm:flex-row items-start sm:items-center p-4 sm:space-x-4 z-10">
