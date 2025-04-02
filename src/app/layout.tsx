@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { geistSans } from "@/lib/fonts/fonts";
 import { ADMIN, HEADLINE } from "@/lib/const/admin";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: `${ADMIN.name} | @${ADMIN.username}`,
@@ -27,7 +29,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} antialiased`}>{children}</body>
+      <body className={`${geistSans.variable} antialiased text-[#282829]`}>
+        <Navbar />
+        {children}
+        <Footer />
+        </body>
     </html>
   );
 }

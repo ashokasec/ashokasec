@@ -8,6 +8,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-spectral: var(--font-spectral);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -120,4 +121,63 @@
   body {
     @apply bg-background text-foreground;
   }
+  article h2 {
+    @apply mt-8 mb-4 max-w-3xl mx-auto;
+  }
+  article h3 {
+    @apply mt-8 mb-4 max-w-3xl mx-auto;
+  }
+  article h4 {
+    @apply mt-8 mb-4 max-w-3xl mx-auto;
+  }
+  article hr {
+    @apply my-6;
+  }
+  article img {
+    @apply rounded-[2px] my-12
+  }
+  article p {
+    @apply mb-5 max-w-3xl mx-auto
+  }
+  article p:has(img) {
+    @apply max-w-4xl
+  }
+  article strong {
+    @apply font-semibold
+  }
+  article ul {
+    @apply space-y-2 list-disc mb-8 max-w-3xl mx-auto pl-5
+  }
+  article ul li {
+    @apply pl-1
+  }
+  article ul li strong {
+    @apply text-[18.5px]
+  }
+  article code {
+    @apply text-base bg-black/[0.05] py-1 px-1.5 rounded-sm mr-1 border
+  }
+  article a {
+    @apply hover:bg-blue-50 font-medium rounded-[2px] px-px text-blue-500 hover:text-blue-600 transition-all underline underline-offset-2 decoration-1
+  }
+  article a code {
+    @apply hover:border-blue-400 hover:bg-blue-50 transition-all
+  }
+  article table {
+    @apply w-full mt-4 text-left text-[16.5px] max-w-3xl mx-auto font-medium
+  }
+  
+  article thead {
+    @apply bg-black/[0.05] text-[17px];
+  }
+  
+  article th, article td {
+    @apply p-3 border border-gray-300;
+  }
+  
+  article tbody tr:hover {
+    @apply bg-gray-50;
+  }
+
+  
 }
