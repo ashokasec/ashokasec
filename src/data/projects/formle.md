@@ -6,7 +6,7 @@ key: formle
 link: https://formle.dev
 ---
 
-[Formle - Simplest Headless Form Solution](https://google.com)
+[Formle - Simplest Headless Form Solution](https://formle.dev)
 
 Formle is a streamlined solution for collecting form submissions effortlessly. It provides an easy-to-use approach for managing form data without the need for complex backend setups.
 

@@ -14,6 +14,7 @@ export type ProjectMeta = {
     timeline: string;
     key: string;
     link: string;
+    github: string | undefined
 }
 
 export function getAllDocuments(documentType: DocumentType) {
@@ -35,6 +36,7 @@ export function getAllDocuments(documentType: DocumentType) {
                 description: matterResult.data.description || "No description available",
                 key: matterResult.data.key || "No description available",
                 link: matterResult.data.link,
+                github: matterResult.data.github,
                 timeline: matterResult.data.timeline
             } as ProjectMeta;
         });
@@ -64,6 +66,7 @@ export function getDocumentContent({ documentType, slug }: { documentType: Docum
                         description: matterResult.data.description || "No description available",
                         key: matterResult.data.key || "No description available",
                         link: matterResult.data.link,
+                        github: matterResult.data.github,
                         timeline: matterResult.data.timeline
                     } as ProjectMeta,
                 }

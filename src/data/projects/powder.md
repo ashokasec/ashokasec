@@ -4,7 +4,13 @@ description: AI-driven tool that generates production-ready React Email template
 timeline: March 2025 - April 2025
 key: powder
 link: https://powder.ashokasec.com
+github: https://github.com/ashokasec/powder
 ---
+
+
+[Powder - Generate React Email Templates Using AI](https://google.com)
+
+[Powder's Github](https://github.com/ashokasec/powder)
 
 Powder is an AI-powered tool that generates **production-ready React Email templates** using **TailwindCSS** with **persuasive email copywriting**. It is designed to streamline the process of creating **mobile-responsive, visually appealing, and high-converting** email templates without manual coding.
 
@@ -34,7 +40,7 @@ A separate blog will detail the engineering challenges faced, what was learned, 
 
 ## Prompt
 
-You can get or update the system here at [`EMAIL_GENERATION_PROMPT`](https://github.com/ashokasec/powder/blob/main/src/lib/ai/prompts.ts).
+You can get or update the system here at [`EMAIL_GENERATION_PROMPT`](https://github.com/ashokasec/powder/blob/main/lib/ai/prompts.ts).
 
 ## Usage
 

@@ -20,10 +20,10 @@ export function Heading({
       className: cn(
         "text-[#282829] font-semibold",
         {
-          "text-3xl": level === 1,
-          "text-2xl": level === 2,
-          "text-xl": level === 3,
-          "text-lg": level === 4,
+          "text-2xl sm:text-3xl md:text-4xl": level === 1,
+          "text-xl sm:text-2xl": level === 2,
+          "text-lg sm:text-xl": level === 3,
+          "text-base sm:text-lg": level === 4,
         },
         className
       ),

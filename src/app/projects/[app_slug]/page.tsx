@@ -43,7 +43,7 @@ async function Page({ params }: { params: Promise<{ app_slug: string }> }) {
       </div>
       {paper?.content ? (
         <article
-          className="paper max-w-5xl mx-auto text-[17px] sm:text-lg md:text-[19px]"
+          className="paper max-w-5xl mx-auto text-[17px] sm:text-lg md:text-[19px] px-4 md:px-0"
           style={spectral.style}
         >
           <Heading level={1} className="text-center">
@@ -57,7 +57,10 @@ async function Page({ params }: { params: Promise<{ app_slug: string }> }) {
               {paper.metadata.timeline}
             </time>
           </div>
-          <p className="text-[#282829] text-center mt-6" style={spectral.style}>
+          <p
+            className="text-[#282829] text-center mt-2 sm:mt-6"
+            style={spectral.style}
+          >
             {paper.metadata.description}
           </p>
           <img

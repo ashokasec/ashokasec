@@ -50,7 +50,7 @@ const ProjectCard = ({
 const LandingProjects = () => {
   const projects = getAllDocuments("projects");
   return (
-    <div className="max-w-[90rem] mx-auto grid md:grid-cols-2 gap-x-6 gap-y-8 pb-20">
+    <div className="max-w-[90rem] mx-auto grid md:grid-cols-2 gap-x-6 gap-y-9 md:gap-y-8 pb-6 sm:pb-20 px-2">
       {projects.map((project, index) => (
         <ProjectCard
           key={index}

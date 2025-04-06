@@ -1,5 +1,6 @@
 import { geistSans, spectral } from "@/lib/fonts/fonts";
 import { Github, X } from "@/lib/logo";
+import { cn } from "@/lib/utils";
 import { Mail } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -7,7 +8,7 @@ import React from "react";
 function HighlighDescription({ children }: { children: React.ReactNode }) {
   return (
     <strong
-      className="text-black text-[17px] font-normal"
+      className="text-black text-[15px] md:text-[17px] font-medium md:font-normal"
       style={spectral.style}
     >
       {children}
@@ -18,8 +19,10 @@ function HighlighDescription({ children }: { children: React.ReactNode }) {
 const SocialLink = ({
   href,
   icon,
+  className,
 }: {
   href: string;
+  className?: string;
   icon: React.ReactNode;
 }) => {
   return (
@@ -27,7 +30,10 @@ const SocialLink = ({
       <Link
         href={href}
         target="_blank"
-        className="size-9 grid place-items-center cursor-pointer border border-transparent hover:border-border transition-all rounded-md bg-white/[0.025] hover:bg-black/[0.05]"
+        className={cn(
+          "size-9 grid place-items-center cursor-pointer border border-transparent hover:border-border transition-all rounded-md bg-white/[0.025] hover:bg-black/[0.05]",
+          className
+        )}
       >
         {icon}
       </Link>
@@ -38,11 +44,14 @@ const SocialLink = ({
 const LandingHeader = () => {
   return (
     <div className="max-w-3xl mx-auto py-28">
-      <h1 style={spectral.style} className="text-4xl w-fit mx-auto">
+      <h1
+        style={spectral.style}
+        className="text-2xl sm:text-3xl md:text-4xl w-fit mx-auto"
+      >
         Hey there, I&apos;m Shivam!
       </h1>
       <p
-        className="text-gray-600 text-center mt-6 leading-relaxed"
+        className="text-gray-500 sm:text-gray-600 text-sm md:text-base text-center mt-6 leading-relaxed px-4"
         style={geistSans.style}
       >
         I am a <HighlighDescription>full-stack developer</HighlighDescription>{" "}
@@ -64,7 +73,7 @@ const LandingHeader = () => {
         />
         <SocialLink href="https://x.com/ashokasec" icon={<X size={19} />} />
         <SocialLink
-          href="https://github.com/ashokasec"
+          href="mailto:work.shivam@proton.me"
           icon={<Mail size={20} />}
         />
       </ul>

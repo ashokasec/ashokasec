@@ -137,42 +137,45 @@
     @apply rounded-[2px] my-12
   }
   article p {
-    @apply mb-5 max-w-3xl mx-auto
+    @apply mb-5 max-w-3xl mx-auto text-gray-600 text-[15.5px] sm:text-[16.5px] md:text-lg
   }
   article p:has(img) {
     @apply max-w-4xl
   }
   article strong {
-    @apply font-semibold
+    @apply font-semibold text-[15.5px] sm:text-[16.5px] md:text-lg
   }
   article ul {
     @apply space-y-2 list-disc mb-8 max-w-3xl mx-auto pl-5
   }
   article ul li {
-    @apply pl-1
+    @apply pl-1 text-[15.5px] sm:text-[16.5px] md:text-lg
   }
   article ul li strong {
-    @apply text-[18.5px]
+    @apply text-[15.5px] sm:text-[16.5px] md:text-lg
   }
   article code {
-    @apply text-base bg-black/[0.05] py-1 px-1.5 rounded-sm mr-1 border
+    @apply text-base bg-black/[0.05] inline-block my-0.5 py-0.5 px-1 md:py-1 md:px-1.5 rounded-sm mr-1 border text-[15px] sm:text-[16.5px] md:text-[17px]
+  }
+  article li code {
+    @apply py-0.5 px-1 md:py-1 md:px-1.5 rounded-sm mr-1 border text-sm sm:text-[15px] md:text-base
   }
   article a {
     @apply hover:bg-blue-50 font-medium rounded-[2px] px-px text-blue-500 hover:text-blue-600 transition-all underline underline-offset-2 decoration-1
   }
   article a code {
-    @apply hover:border-blue-400 hover:bg-blue-50 transition-all
+    @apply hover:border-blue-400 hover:bg-blue-50 transition-all text-[15px] sm:text-[16.5px] md:text-[17px]
   }
   article table {
     @apply w-full mt-4 text-left text-[16.5px] max-w-3xl mx-auto font-medium
   }
   
   article thead {
-    @apply bg-black/[0.05] text-[17px];
+    @apply bg-black/[0.05] text-[15px] sm:text-[16.5px] md:text-[17px];
   }
   
   article th, article td {
-    @apply p-3 border border-gray-300;
+    @apply p-3 border border-gray-300 text-[15px] sm:text-[16.5px] md:text-[17px];
   }
   
   article tbody tr:hover {
