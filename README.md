@@ -1,4 +1,4 @@
-![banner](https://raw.githubusercontent.com/ashokasec/ashokasec/refs/heads/main/public/images/banner.jpeg)
+![banner](https://raw.githubusercontent.com/ashokasec/ashokasec/refs/heads/main/public/images/GdErUjnXAAAsR7i.png)
 
 
 # AshokaSec - The Javascript Kiddie ✨
